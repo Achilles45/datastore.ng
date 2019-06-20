@@ -1,0 +1,14 @@
+{
+  "name": "datastore.ng",
+  "version": "1.0.0",
+  "description": "real time currency converter and market data  ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/scss -o dist/css --recursive"
+  },
+  "author": "Achilles",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
