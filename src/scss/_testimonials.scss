@@ -1,0 +1,33 @@
+.testimonials{
+    background: linear-gradient(rgba(4,9,30,.9), rgba(4,9,30,.9)), url('/dist/images/map.png');
+    color:#fff;
+    .testimonials-heading{
+        width:50%;
+        margin:0 auto;
+        text-align:center;
+        padding-top:3rem;
+        h3{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+    p{
+        padding-top: 1.5rem;
+    }
+        .testimonial-card{
+            border-radius: 2px;
+            color:#333;
+            padding:2rem 2rem;
+            margin: 4rem 0; 
+            background:#fafafa;
+            box-shadow: 0px 0px 3px 1px rgba(0,0,0,.07);
+            .card-title{
+                text-align: center;
+                padding:2rem 0;
+            }
+            .card-body{
+                padding-top:2rem;
+            }
+        }
+    }
+

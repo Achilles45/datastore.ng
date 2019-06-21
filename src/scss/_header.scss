@@ -38,6 +38,9 @@ header{
             }
         }
     }
+    .navbar-toggle{
+        display: none;
+    }
     
 }
 
@@ -87,6 +90,7 @@ header{
         .hero-section--right{
             position: relative;
             margin: 0 auto;
+            right:3%;
             .mobile{
                 position: absolute;
                 animation-name: mobile;
@@ -168,6 +172,6 @@ header{
 //MOBILE PHONE KEYFRAME
 @keyframes mobile{
     to{
-        transform: translateY(-12%);
+        transform: translateY(-10%);
     }
 }

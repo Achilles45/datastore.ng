@@ -1,0 +1,24 @@
+footer{
+    background: linear-gradient(rgba(4,9,30,.9), rgba(4,9,30,.9)), url('/dist/images/map.png');
+    color:#fff;
+    p{
+        font-size:.8rem;
+        opacity: .8;
+    }
+    .footer-contents{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 30px;
+        .about, .contact, .company{
+            padding-top:4rem;
+            padding-bottom: 2.5rem;
+            h4{
+            padding-bottom: 2rem;
+            letter-spacing: .05rem;
+        }
+        }
+    }
+    // .footer-bottom{
+       
+    // }
+}

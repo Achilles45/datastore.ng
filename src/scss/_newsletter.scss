@@ -1,0 +1,47 @@
+.newsletter{
+    margin:5rem 0;
+    .newsletter-contents{
+        width:50%;
+        margin:0 auto;
+        text-align: center;
+        h3{
+            text-transform: uppercase;
+            color:$secondary-color;
+            font-weight: bold;
+            padding-bottom: 1rem;
+        }
+        p{
+            color:#333;
+            padding-bottom:3rem;
+            font-size: .9rem;
+        }
+        .newsletter-form{
+            input[type=text]{
+                height: 3rem;
+                width:90%;
+                padding:.3rem 1.5rem;
+                border: 1px solid rgba(209,209,209,0.56);
+                background:transparent;
+                color: #828282;
+                font-family: 'Varela Round';
+                &:focus{
+                    border: 1px solid #828282;
+                    box-shadow: none;
+                    outline: none;
+                }
+            }
+            .newletter-btn{
+                padding:0 3rem;
+                background: $secondary-color;
+                outline:none;
+                box-shadow: none;
+                color:#fff;
+                border:none;
+                cursor: pointer;
+                text-transform: uppercase;
+                // font-weight: bold;
+                font-family: 'Varela Round';
+            }
+        }
+    }
+}
